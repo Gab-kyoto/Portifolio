@@ -38,7 +38,10 @@
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
-    
+}
+
+.conteudo_contatos,.conteudo_projetos {
+    border-top: 2px dashed #c7b0c7;
 }
 
 .ibagem {
