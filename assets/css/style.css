@@ -1,0 +1,142 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.lista_links{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 20px;
+    justify-items: center;
+    background-color: white;
+    
+}
+
+.link_prioridade1 {
+    margin-top: 15px;
+    padding: 5px;
+    border-bottom: 1px #c7b0c7 solid;
+    list-style: none;
+    margin-bottom: 25px;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.link_prioridade1:hover {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 50%;
+}
+
+.conteudo_principal {
+    display: grid;
+    background-color: white;
+    border-top: 2px dashed #c7b0c7;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.ibagem {
+    width: 50vw;
+    height: 42vw;
+}
+
+.ibagem_formacao {
+    width: 50vw;
+    height: 42vw;
+}
+
+.texto_principal {
+    display: grid;
+    width: 48vw;
+    height: 36vw;
+    align-items: center;
+}
+
+.titulo_principal,.projeto_titulo {
+    font-family: "Mali", sans-serif;
+    font-size: 12vh;
+    font-weight: 800;
+    padding: 12px;
+}
+.inicio_texto {
+    color: black;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: "Mulish", sans-serif;
+}
+
+.titulo_formacao,.projeto_titulo {
+    font-size: 4vw;
+}
+
+.texto_formacao {
+    font-family: "Mulish", sans-serif;
+    list-style: none;
+    padding-top: 3vw;
+    font-size: 18px;
+    text-align: start;
+}
+
+.titulo_formacao:hover,.titulo_principal:hover,.projeto_titulo:hover {
+    color: purple;
+    font-weight: bolder;
+}
+
+.conteudo_projetos,.conteudo_contatos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+}
+
+.projeto_titulo {
+    padding-top: 1em;
+}
+
+.link_projeto {
+    text-decoration: none;
+    list-style: none;
+    padding: 3em 1em 0 0.5em;
+    font-size: 2em;
+    font-family: "Mulish", sans-serif;
+}
+
+.portifolio_link:hover {
+    padding: 0.3em;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+.contatos {
+    display: grid;
+    padding: 1em 1em 0 7em;
+    grid-row: 1fr 1fr 1fr;
+    gap: 30px 0  
+}
+
+.portifolio_link,.link_contato,.link_insta,.link_linkedin,.link_git {
+    list-style: none;
+    text-decoration: none;
+}
+
+.link_contato {
+    background-image: url("/assets/img/insta.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    max-width: 250;
+}
+
+.link_imagem {
+    width: 100px;
+    height: 100px;
+    max-width: 250;
+}
+
